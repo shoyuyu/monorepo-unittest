@@ -1,0 +1,18 @@
+# Build output
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+
+# Test coverage
+coverage/
+*.lcov
