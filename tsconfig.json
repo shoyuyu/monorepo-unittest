@@ -12,7 +12,7 @@
       "@/*": ["packages/*"]
     },
     "composite": true,
-    "types": ["jest"],
+    "types": ["jest", "node"],
   },
   "include": ["packages/**/*"],
   "exclude": ["node_modules"]
