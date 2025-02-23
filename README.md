@@ -76,10 +76,29 @@ npm test
 
 ### typescript-testプロジェクト
 
-```
+``` bash
 // typescript-testディレクトリに移動
 cd packages/typescript-test
 
 // ユニットテストの実行
 npm test
 ```
+
+## カバレッジレポートの実行手順
+
+#### カバレッジレポートの出力とHTMLレポートの確認
+
+ルートディレクトリでnpx jest --coverageを実行することで、カバレッジレポートが出力されます。
+
+``` bash
+// カバレッジレポートの出力
+npx jest --coverage
+
+// 出力されたHTMLレポートの確認
+open coverage/lcov-report/index.html
+
+// カスタムレポーターの確認
+open jest_html_reportets.html
+```
+
+
