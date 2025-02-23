@@ -10,4 +10,8 @@ module.exports = {
     '<rootDir>/packages/react-test',
     '<rootDir>/packages/typescript-test'
   ],
+  reporters: [
+    'default',
+    'jest-html-reporters'
+  ],
 };

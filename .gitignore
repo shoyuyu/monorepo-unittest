@@ -30,3 +30,7 @@ coverage/
 
 # OS-specific files
 Thumbs.db
+
+# jest-html-reporters
+jest-html-reporters-attach/
+jest_html_reporters.html
