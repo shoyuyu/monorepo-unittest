@@ -11,3 +11,4 @@ coverage/
 *.snap
 *.json
 *.md
+**/__tests__/**
