@@ -1,13 +1,15 @@
-// src/App.tsx
+import Header from './components/IntegrationTest/Header';
+import MainContent from './components/IntegrationTest/MainContent';
+import Footer from './components/IntegrationTest/Footer';
 
-import './App.css'
-
-function App() {
-return (
+const App: React.FC = () => {
+  return (
     <div>
-      <h1>ファイルを初期化しました。</h1>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
