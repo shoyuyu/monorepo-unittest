@@ -63,6 +63,8 @@ npm install
 
 ### react-testプロジェクト
 
+Storybookのパッケージが含まれる構成になっています。
+
 ``` bash
 // react-testディレクトリに移動
 cd packages/react-test
@@ -72,6 +74,9 @@ npm start
 
 // ユニットテストの実行
 npm test
+
+// Storybookの起動
+npm run storybook
 ```
 
 ### typescript-testプロジェクト
@@ -100,5 +105,11 @@ open coverage/lcov-report/index.html
 // カスタムレポーターの確認
 open jest_html_reportets.html
 ```
+
+## ブランチ管理
+
+feature/add-storybookブランチは、Storybookの追加と設定を行うためのブランチです。<br>
+このブランチで行われた変更は、mainブランチへのプルリクエストを通じてマージされました。
+
 
 
